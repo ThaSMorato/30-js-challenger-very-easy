@@ -1,7 +1,5 @@
 export function reverseWordsInString(string) {
-  return string
-    .toLowerCase()
-    .split(" ")
-    .map((str) => str.split("").reverse().join(""))
-    .join(" ");
+  const reverse = (str) => str.split("").reverse().join("");
+
+  return string.toLowerCase().split(" ").map(reverse).join(" ");
 }
