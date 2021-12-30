@@ -5,6 +5,5 @@ export function reverseArray(arr) {
     result[index] = arr[arr.length - 1 - index];
   }
 
-  console.log(result);
   return result;
 }
