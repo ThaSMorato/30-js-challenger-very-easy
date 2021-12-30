@@ -1,5 +1,4 @@
 import { describe, it, expect } from "@jest/globals";
-import faker from "faker";
 import { spaceTraveling } from "./spaceTraveling";
 
 describe("Space treveling", () => {
